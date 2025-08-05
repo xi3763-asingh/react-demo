@@ -15,6 +15,9 @@
 # production
 /build
 
+/dist
+/.history
+
 # misc
 .DS_Store
 *.pem
@@ -34,3 +37,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+
+
+# amplify
+.amplify
+amplify_outputs*
+amplifyconfiguration*
